@@ -1,5 +1,5 @@
 {% set name = "geotessera" %}
-{% set version = "0.7.5" %}
+{% set version = "0.8.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geotessera-{{ version }}.tar.gz
-  sha256: 8a00ec021f140081adde12b7f09a2723b1cb419f455ad52d91fe8b47e8c34461
+  sha256: c7947d963a0c97e6c4a3e5d5acf89ece5e81815fed5b91c0b7e7a0cfc7057d5c
 
 build:
   entry_points:
